@@ -1,6 +1,8 @@
 body,
 html {
     height: 100%;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
 }
 
 .heading {
@@ -9,8 +11,9 @@ html {
     background-size: cover;
     padding-top: 200px;
     background-position: center;
-    margin: 0;
-    height: 90%;
+    margin: unset;
+    height: 70%;
+    width: 100%;
 
 }
 
@@ -28,6 +31,7 @@ h1 {
 
 h2 {
     font-size: 40px;
+    font-weight: 900;
 }
 
 h3 {
@@ -35,7 +39,7 @@ h3 {
 }
 
 .title p {
-    margin-bottom: 40px;
+    margin-bottom: 4em;
 }
 
 .button {
@@ -64,23 +68,24 @@ h3 {
     width: 12%;
     border: 1px solid rgb(214, 213, 213);
     background-color: rgb(232, 240, 240);
+    color: rgb(56, 56, 56);
     margin: 10px;
     border-radius: 5px;
     padding: 10px 0;
 }
-#selected{
+
+.selected {
     background-color: #ff480080;
     border: 2px solid orangered;
-    color: rgb(145, 45, 9);
+    color: rgb(204, 72, 20);
     text-align: center;
 }
 
 .amount h3 {
     text-align: center;
-    color: rgb(56, 56, 56);
 }
 
-.enter-amount{
+.enter-amount {
     width: 55%;
     margin: 0 auto;
     border: 0 solid white;
@@ -88,4 +93,72 @@ h3 {
 
 .enter-amount input {
     width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-top: 30px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.donate-amount a {
+    margin-top: 50px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(214, 61, 34);
+    padding: 20px;
+    border-radius: 4px;
+    width: 50%;
+}
+
+section .donate-plan {
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+}
+section .plan-heading{
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+}
+section .donate-plan-parts{
+    margin: 10px;
+    padding: 30px 50px 50px 30px;
+    border-radius: 8px;
+    width: 30%;
+}
+section .donate-plan #plan-part1{
+    background-color: antiquewhite;
+}
+section .donate-plan #plan-part2{
+    background-color: rgb(250, 215, 242);
+}
+section .donate-plan #plan-part3{
+    background-color: rgb(215, 215, 250);
+}
+.updates .email-plus-button{
+    text-align: center;
+    background-color: rgb(245, 216, 179);
+    padding: 50px;
+    width: 60%;
+    margin: 0 auto;
+
+}
+.updates .email-plus-button input{
+    width: 30%;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(223, 217, 217);
+    border: none;
+    border-radius: 8px;
+}
+.updates .email-plus-button a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(214, 61, 34);
+    padding: 18px;
+    border-radius: 8px;
+    margin: 0;
 }
