@@ -1,5 +1,8 @@
-body,
 html {
+    height: 100%;
+}
+
+body {
     height: 100%;
     margin: 0;
     font-family: 'Roboto Slab', serif;
@@ -12,7 +15,7 @@ html {
     padding-top: 200px;
     background-position: center;
     margin: unset;
-    height: 70%;
+    height: 80%;
     width: 100%;
 
 }
@@ -21,7 +24,8 @@ html {
     text-align: center;
     width: 50%;
     margin: 0 auto;
-    color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgba(95, 158, 160, 0.144);
 }
 
 h1 {
@@ -101,14 +105,18 @@ h3 {
     font-size: 25px;
 }
 
-.donate-amount a {
-    margin-top: 50px;
-    text-decoration: none;
+.donate-amount .donate-now-button {
     color: aliceblue;
     background-color: rgb(214, 61, 34);
-    padding: 20px;
-    border-radius: 4px;
-    width: 50%;
+    padding: 18px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 10%;
+}
+
+.donate-amount .donate-now-button a {
+    text-decoration-color: none;
+    text-align: center;
 }
 
 section .donate-plan {
@@ -117,35 +125,42 @@ section .donate-plan {
     margin: 30px auto;
     padding: 30px;
 }
-section .plan-heading{
+
+section .plan-heading {
     width: 40%;
     margin: 20px auto;
     text-align: center;
 }
-section .donate-plan-parts{
+
+section .donate-plan-parts {
     margin: 10px;
     padding: 30px 50px 50px 30px;
     border-radius: 8px;
     width: 30%;
 }
-section .donate-plan #plan-part1{
+
+section .donate-plan #plan-part1 {
     background-color: antiquewhite;
 }
-section .donate-plan #plan-part2{
+
+section .donate-plan #plan-part2 {
     background-color: rgb(250, 215, 242);
 }
-section .donate-plan #plan-part3{
+
+section .donate-plan #plan-part3 {
     background-color: rgb(215, 215, 250);
 }
-.updates .email-plus-button{
-    text-align: center;
-    background-color: rgb(245, 216, 179);
-    padding: 50px;
-    width: 60%;
-    margin: 0 auto;
 
+.updates .email-plus-button {
+    text-align: center;
+    background-color: rgb(255, 241, 225);
+    padding: 60px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 8px;
 }
-.updates .email-plus-button input{
+
+.updates .email-plus-button input {
     width: 30%;
     padding: 20px;
     margin: 0;
@@ -154,11 +169,30 @@ section .donate-plan #plan-part3{
     border: none;
     border-radius: 8px;
 }
-.updates .email-plus-button a{
+
+.updates .email-plus-button a {
     text-decoration: none;
     color: aliceblue;
     background-color: rgb(214, 61, 34);
     padding: 18px;
     border-radius: 8px;
     margin: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 25px 0;
+    margin-top: 100px;
+}
+
+footer h2 {
+    font-family: 'Arima', cursive;
+    margin-bottom: 0;
+    color: tomato;
+}
+
+footer p {
+    margin-top: 0;
+    color: white;
 }
