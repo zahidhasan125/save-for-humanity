@@ -104,9 +104,14 @@ h3 {
     text-align: center;
     font-size: 25px;
 }
-
-.donate-amount .donate-now-button {
+.donate-now-button a{
+    text-decoration: none;
     color: aliceblue;
+    text-align: center;
+    padding-left: 15px;
+}
+.donate-amount .donate-now-button {
+    
     background-color: rgb(214, 61, 34);
     padding: 18px;
     border-radius: 8px;
@@ -125,8 +130,13 @@ section .donate-plan {
     margin: 30px auto;
     padding: 30px;
 }
-
 section .plan-heading {
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form .plan-heading {
     width: 40%;
     margin: 20px auto;
     text-align: center;
@@ -149,6 +159,28 @@ section .donate-plan #plan-part2 {
 
 section .donate-plan #plan-part3 {
     background-color: rgb(215, 215, 250);
+}
+.img-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.gallery h2{
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+.gallery img{
+    width: 22%;
+    height: 180px;
+    padding: 2px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 2px;
+    border: 1px solid black;
 }
 
 .updates .email-plus-button {
