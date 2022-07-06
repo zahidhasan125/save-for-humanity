@@ -3,29 +3,31 @@ html {
 }
 
 body {
+    font-family: 'Roboto Slab', serif;
     height: 100%;
     margin: 0;
-    font-family: 'Roboto Slab', serif;
 }
 
+/* background image setting */
 .heading {
     background-image: url(images/donation7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 200px;
+    padding-top: 120px;
     background-position: center;
-    margin: unset;
     height: 80%;
     width: 100%;
-
+    margin: 0;
 }
 
 .title {
     text-align: center;
     width: 50%;
     margin: 0 auto;
+    padding: 50px;
     color: rgb(255, 255, 255);
     background-color: rgba(95, 158, 160, 0.144);
+    border-radius: 8px;
 }
 
 h1 {
@@ -39,19 +41,20 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .title p {
     margin-bottom: 4em;
 }
 
-.button {
+.heading a {
     text-decoration: none;
     color: aliceblue;
     background-color: rgb(214, 61, 34);
-    padding: 20px;
+    padding: 15px;
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 .donate-now {
@@ -104,14 +107,16 @@ h3 {
     text-align: center;
     font-size: 25px;
 }
-.donate-now-button a{
+
+.donate-now-button a {
     text-decoration: none;
     color: aliceblue;
     text-align: center;
     padding-left: 15px;
 }
+
 .donate-amount .donate-now-button {
-    
+
     background-color: rgb(214, 61, 34);
     padding: 18px;
     border-radius: 8px;
@@ -130,6 +135,7 @@ section .donate-plan {
     margin: 30px auto;
     padding: 30px;
 }
+
 section .plan-heading {
     width: 40%;
     margin: 20px auto;
@@ -160,20 +166,23 @@ section .donate-plan #plan-part2 {
 section .donate-plan #plan-part3 {
     background-color: rgb(215, 215, 250);
 }
-.img-gallery{
+
+.img-gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
 }
-.gallery h2{
+
+.gallery h2 {
     width: 40%;
     margin: 20px auto;
     text-align: center;
-    
+
 }
-.gallery img{
+
+.gallery img {
     width: 22%;
     height: 180px;
     padding: 2px;
